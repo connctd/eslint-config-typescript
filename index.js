@@ -1,6 +1,9 @@
 
 module.exports = {
 	"parser": "@typescript-eslint/parser",
+	"env": {
+        "browser": true
+    },
 	"parserOptions": {
 	  "jsx": true,
 	  "useJSXTextNode": true
@@ -32,6 +35,7 @@ module.exports = {
 			}
 		],
 		"jsx-a11y/label-has-associated-control": 0, // Does not work correctly with component inputs
-		"jsx-a11y/label-has-for": 0
+		"jsx-a11y/label-has-for": 0,
+		"spaced-comment": 0 // doesn't work with typescript trippe comments
 	}
 }
