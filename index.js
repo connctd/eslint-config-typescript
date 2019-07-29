@@ -2,7 +2,8 @@
 module.exports = {
 	"parser": "@typescript-eslint/parser",
 	"env": {
-        "browser": true
+		"browser": true,
+		"jest": true
     },
 	"parserOptions": {
 	  "jsx": true,
