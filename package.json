@@ -6,7 +6,6 @@
   "repository": "git@github.com:connctd/typescript.git",
   "author": "Pandelis Zembashis <pandelis.zembashis@connctd.com>",
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "eslint-config-airbnb": "^17.1.1",
     "eslint-plugin-import": "^2.18.0",

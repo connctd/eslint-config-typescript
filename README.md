@@ -10,7 +10,7 @@ Based on [airbnb/javascript](https://github.com/airbnb/javascript) and
 ## Usage
 
 ```sh
-yarn add 'ssh://git@github.com:connctd/eslint-config-typescript.git' -D
+yarn add '@connctd/eslint-config-typescript' -D
 ```
 
 ```sh
