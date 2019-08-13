@@ -22,7 +22,9 @@ module.exports = {
 		"quotes": [2, "double"],
 		"react/button-has-type": 0, //https://github.com/yannickcr/eslint-plugin-react/issues/1555
 		"@typescript-eslint/explicit-member-accessibility": 0,
-		"@typescript-eslint/indent": 0,
+		"indent": 0,
+		"@typescript-eslint/indent": [2, 4],
+		"lines-between-class-members": 0,
 		"import/no-unresolved": 0,
 		"@typescript-eslint/member-delimiter-style": [
 			2, {
@@ -37,6 +39,10 @@ module.exports = {
 		],
 		"jsx-a11y/label-has-associated-control": 0, // Does not work correctly with component inputs
 		"jsx-a11y/label-has-for": 0,
-		"spaced-comment": 0 // doesn't work with typescript trippe comments
+		"spaced-comment": 0,
+		"react/jsx-one-expression-per-line": [1, { allow: "single-child" } ],
+		"camelcase": "off",
+		"@typescript-eslint/camelcase": 0,
+		"react-hooks/exhaustive-deps": 0
 	}
 }
