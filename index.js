@@ -24,6 +24,7 @@ module.exports = {
 		"@typescript-eslint/explicit-member-accessibility": 0,
 		"indent": 0,
 		"@typescript-eslint/indent": [2, 4],
+		"react/jsx-indent-props": [2, 4],
 		"lines-between-class-members": 0,
 		"import/no-unresolved": 0,
 		"@typescript-eslint/member-delimiter-style": [
