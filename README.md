@@ -1,4 +1,5 @@
 # @connctd/eslint-config-typescript
+[![npm (scoped)](https://img.shields.io/npm/v/@connctd/eslint-config-typescript?style=flat-square)](https://www.npmjs.com/package/@connctd/eslint-config-typescript)
 
 Recommended coding style for typescript projects.
 
