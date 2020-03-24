@@ -47,5 +47,6 @@ module.exports = {
 		"react-hooks/exhaustive-deps": 0,
 		"max-len": [1, {code: 150}],
 		"arrow-parens": 0,
+		"import/extensions": 0,
 	}
 }
