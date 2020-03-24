@@ -44,6 +44,8 @@ module.exports = {
 		"react/jsx-one-expression-per-line": [1, { allow: "single-child" } ],
 		"camelcase": "off",
 		"@typescript-eslint/camelcase": 0,
-		"react-hooks/exhaustive-deps": 0
+		"react-hooks/exhaustive-deps": 0,
+		"max-len": [1, {code: 150}],
+		"arrow-parens": 0,
 	}
 }
