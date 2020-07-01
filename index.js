@@ -10,7 +10,7 @@ module.exports = {
 	  "useJSXTextNode": true
 	},
 	"extends": ["airbnb","plugin:@typescript-eslint/recommended"],
-	"plugins": ["@typescript-eslint"],
+	"plugins": ["@typescript-eslint/eslint-plugin"],
 	"rules": {
 		"import/no-extraneous-dependencies": 0,
 		"@typescript-eslint/explicit-function-return-type": 0,
