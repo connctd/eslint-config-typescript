@@ -14,7 +14,8 @@ module.exports = {
 	],
 	"extends": [
 		"airbnb",
-		"plugin:@typescript-eslint/recommended"
+		"plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
 	],
 	"rules": {
 		"semi": [2, "always"],
@@ -29,8 +30,8 @@ module.exports = {
 		"no-use-before-define": 0,
 
 		"@typescript-eslint/indent": [2, 2],
-		"@typescript-eslint/no-use-before-define": 0,
-		"@typescript-eslint/no-unused-vars": 0,
+		"@typescript-eslint/no-use-before-define": 2,
+		"@typescript-eslint/no-unused-vars": 2,
 		"@typescript-eslint/triple-slash-reference": 0,
 		"@typescript-eslint/explicit-function-return-type": 0,
 		"@typescript-eslint/explicit-module-boundary-types": 0,
