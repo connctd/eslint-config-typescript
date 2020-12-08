@@ -9,12 +9,12 @@ module.exports = {
 	  "jsx": true,
 	  "useJSXTextNode": true
 	},
+	"plugins": [
+		"@typescript-eslint/eslint-plugin"
+	],
 	"extends": [
 		"airbnb",
 		"plugin:@typescript-eslint/recommended"
-	],
-	"plugins": [
-		"@typescript-eslint"
 	],
 	"rules": {
 		"semi": [2, "always"],
@@ -33,6 +33,8 @@ module.exports = {
 		"@typescript-eslint/no-unused-vars": 0,
 		"@typescript-eslint/triple-slash-reference": 0,
 		"@typescript-eslint/explicit-function-return-type": 0,
+		"@typescript-eslint/explicit-module-boundary-types": 0,
+		"@typescript-eslint/ban-types": 0,
 
 		"import/no-extraneous-dependencies": 0,
 		"import/prefer-default-export": 0,
