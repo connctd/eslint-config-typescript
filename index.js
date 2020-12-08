@@ -30,7 +30,7 @@ module.exports = {
 		"no-use-before-define": 0,
 
 		"@typescript-eslint/indent": [2, 2],
-		"@typescript-eslint/no-use-before-define": 2,
+		"@typescript-eslint/no-use-before-define": 0,
 		"@typescript-eslint/no-unused-vars": 2,
 		"@typescript-eslint/triple-slash-reference": 0,
 		"@typescript-eslint/explicit-function-return-type": 0,
