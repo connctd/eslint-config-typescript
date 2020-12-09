@@ -27,6 +27,7 @@ module.exports = {
 		'max-len': ['warn', { code: 150 }],
 		'import/extensions': 'off',
 		'max-classes-per-file': 'off',
+		'no-shadow': 'off',
 		'no-use-before-define': 'off',
 		'comma-dangle': ['error', 'never'],
 
@@ -37,6 +38,11 @@ module.exports = {
 		'@typescript-eslint/explicit-function-return-type': 'off',
 		'@typescript-eslint/explicit-module-boundary-types': 'off',
 		'@typescript-eslint/ban-types': 'off',
+		'@typescript-eslint/no-explicit-any': 'off',
+		'@typescript-eslint/member-delimiter-style': ['error', {
+			"multiline": { "delimiter": "semi", "requireLast": true },
+			"singleline": { "delimiter": "semi", "requireLast": true }
+		}],
 
 		'import/no-extraneous-dependencies': 'off',
 		'import/prefer-default-export': 'off',
@@ -44,6 +50,7 @@ module.exports = {
 		'react/jsx-filename-extension': 'off',
 		'react/prop-types': 'off',
 		'react/jsx-indent': ['error', 2],
-		'react/jsx-indent-props': ['error', 2]
+		'react/jsx-indent-props': ['error', 2],
+		'react/jsx-props-no-spreading': 'off'
 	}
 }
