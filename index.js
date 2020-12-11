@@ -4,9 +4,9 @@ module.exports = {
 	env: {
 		browser: true,
 		jest: true
-  },
+	},
 	parserOptions: {
-	  jsx: true,
+		jsx: true,
 		useJSXTextNode: true
 	},
 	plugins: [
@@ -41,7 +41,7 @@ module.exports = {
 		'@typescript-eslint/no-explicit-any': 'off',
 		'@typescript-eslint/member-delimiter-style': ['error', {
 			"multiline": { "delimiter": "semi", "requireLast": true },
-			"singleline": { "delimiter": "semi", "requireLast": true }
+			"singleline": { "delimiter": "comma", "requireLast": false }
 		}],
 
 		'import/no-extraneous-dependencies': 'off',
