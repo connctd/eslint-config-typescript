@@ -24,7 +24,7 @@ npx install-peerdeps @connctd/eslint-config-typescript
 
 OR
 
-_(Recommended if you are installing this config from a custom private registry, since install-peerdeps only can fetches from the public npm registry)_
+_(Recommended if you are installing this config from a custom private registry, since install-peerdeps only can fetch from the public npm registry)_
 
 ```sh
 yarn add -D \
